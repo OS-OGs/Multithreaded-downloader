@@ -35,7 +35,7 @@ sudo dnf install gcc make libcurl-devel
 ```bash
 # Clone the repository
 git clone https://github.com/OS-OGs/Multithreaded-downloader
-cd file-download-manager
+cd Multithreaded-downloader-main
 
 # Build the project
 make clean
