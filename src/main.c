@@ -158,6 +158,7 @@ void startDownload(const char *url, Monitor *monitor)
         {
             printf("Download completed successfully: %s\n", baseOutputPath);
             updateProgress(monitor, baseOutputPath, 100);
+            printf("File saved to downloads.\n");
         }
         else
         {
