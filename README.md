@@ -67,7 +67,7 @@ download "URL_TO_DOWNLOAD"
 download "https://example.com/large-file.zip"
 ```
 
-Downloaded files are stored in `/var/lib/downloader/downloads/`.
+
 
 ### If You Built from Source
 If you built from source, you need to run the executable from the project directory:
@@ -80,7 +80,7 @@ If you built from source, you need to run the executable from the project direct
 ./file_download_manager download "https://example.com/file.txt"
 ```
 
-Files are saved to the `downloads` directory within the project folder.
+Files are saved to the `Home/Downloads` directory
 
 ## Project Structure
 ```
